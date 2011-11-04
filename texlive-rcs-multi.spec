@@ -53,6 +53,7 @@ based on the author's svn-multi package.
 %doc %{_texmfdistdir}/source/latex/rcs-multi/example.tex
 %doc %{_texmfdistdir}/source/latex/rcs-multi/rcs-multi.dtx
 %doc %{_texmfdistdir}/source/latex/rcs-multi/rcs-multi.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -63,3 +64,5 @@ based on the author's svn-multi package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
