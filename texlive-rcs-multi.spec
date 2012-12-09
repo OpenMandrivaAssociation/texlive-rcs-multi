@@ -53,3 +53,17 @@ based on the author's svn-multi package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.1a-2
++ Revision: 755601
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.1a-1
++ Revision: 719434
+- texlive-rcs-multi
+- texlive-rcs-multi
+- texlive-rcs-multi
+- texlive-rcs-multi
+
