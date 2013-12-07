@@ -6,7 +6,7 @@
 # catalog-version 0.1a
 Name:		texlive-rcs-multi
 Version:	0.1a
-Release:	4
+Release:	5
 Summary:	Typeset RCS version control in multiple-file documents
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/rcs-multi
