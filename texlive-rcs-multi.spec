@@ -1,6 +1,6 @@
 Name:		texlive-rcs-multi
 Version:	64967
-Release:	1
+Release:	2
 Summary:	Typeset RCS version control in multiple-file documents
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/rcs-multi
