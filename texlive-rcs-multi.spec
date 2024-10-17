@@ -3,7 +3,7 @@ Version:	64967
 Release:	2
 Summary:	Typeset RCS version control in multiple-file documents
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/rcs-multi
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/rcs-multi
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/rcs-multi.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/rcs-multi.doc.r%{version}.tar.xz
